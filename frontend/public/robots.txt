@@ -1,0 +1,15 @@
+# robots.txt — Gym Performance Center
+# Owner: Hazrat Ullah (https://github.com/Hazrat-Ullah-star)
+
+User-agent: *
+Allow: /
+
+# Disallow admin / API routes from indexing
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /register/
+
+# Sitemap location
+Sitemap: https://gym-performance-center.vercel.app/sitemap.xml

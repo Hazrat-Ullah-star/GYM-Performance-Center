@@ -1,0 +1,22 @@
+{
+  "name": "Gym Performance Center",
+  "short_name": "GymPC",
+  "description": "Pakistan's premier fitness destination in Islamabad.",
+  "author": "Hazrat Ullah",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#f36100",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/img/logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "fitness", "sports"]
+}

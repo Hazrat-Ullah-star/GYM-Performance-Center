@@ -1,0 +1,21 @@
+{
+  "name": "gym-community-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pakistan's premier fitness destination — full-stack gym community platform",
+  "author": {
+    "name": "Hazrat Ullah",
+    "email": "hurm.tk@gmail.com",
+    "url": "https://portfolio-eta-lac-hwnim1scpy.vercel.app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hazrat-Ullah-star/GYM"
+  },
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "backend": "cd backend && .\\venv\\Scripts\\python.exe manage.py runserver"
+  }
+}
